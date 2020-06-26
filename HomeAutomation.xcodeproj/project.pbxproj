@@ -3,29 +3,79 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C8CD6B108B29221E8B4EDF7 /* Pods_HomeAutomation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F79CCD0DD9568B314907A5 /* Pods_HomeAutomation.framework */; };
+		B84D5564236BF7E8000CC6A3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B84D5563236BF7E8000CC6A3 /* GoogleService-Info.plist */; };
+		B8CAF52323754143009F01D1 /* TemperatureHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CAF52223754143009F01D1 /* TemperatureHistoryTableViewController.swift */; };
+		B8CAF52523754198009F01D1 /* TemperatureHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CAF52423754198009F01D1 /* TemperatureHistoryTableViewCell.swift */; };
+		B8CAF52923755DE0009F01D1 /* LeakageHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CAF52823755DE0009F01D1 /* LeakageHistoryTableViewCell.swift */; };
+		B8CAF52B23755DEF009F01D1 /* DoorHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CAF52A23755DEF009F01D1 /* DoorHistoryTableViewCell.swift */; };
+		B8CAF52D23755E0C009F01D1 /* AirHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CAF52C23755E0C009F01D1 /* AirHistoryTableViewCell.swift */; };
+		B8CAF52F23755E24009F01D1 /* AirHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CAF52E23755E24009F01D1 /* AirHistoryTableViewController.swift */; };
+		B8CAF53123755E33009F01D1 /* DoorHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CAF53023755E33009F01D1 /* DoorHistoryTableViewController.swift */; };
+		B8CAF53323755E4A009F01D1 /* LeakageHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CAF53223755E4A009F01D1 /* LeakageHistoryTableViewController.swift */; };
+		B8CAF53523755E5A009F01D1 /* LightHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CAF53423755E5A009F01D1 /* LightHistoryTableViewController.swift */; };
+		B8CAF5372376AC45009F01D1 /* AltimeterSensorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CAF5362376AC45009F01D1 /* AltimeterSensorData.swift */; };
+		B8CAF53D2376ADC4009F01D1 /* DoorSensorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CAF53C2376ADC4009F01D1 /* DoorSensorData.swift */; };
+		B8CAF53F2376ADF6009F01D1 /* LeakageSensorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CAF53E2376ADF6009F01D1 /* LeakageSensorData.swift */; };
+		B8CAF5412376AE39009F01D1 /* AirSensorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CAF5402376AE39009F01D1 /* AirSensorData.swift */; };
+		B8CAF5452377E4BE009F01D1 /* RGBandMotionSensorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CAF5442377E4BE009F01D1 /* RGBandMotionSensorData.swift */; };
+		B8CAF5472377EE57009F01D1 /* LightHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CAF5462377EE57009F01D1 /* LightHistoryTableViewCell.swift */; };
 		B8DEDFA823501FB7007119F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DEDFA723501FB7007119F8 /* AppDelegate.swift */; };
 		B8DEDFAA23501FB7007119F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DEDFA923501FB7007119F8 /* SceneDelegate.swift */; };
 		B8DEDFAC23501FB7007119F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DEDFAB23501FB7007119F8 /* ViewController.swift */; };
 		B8DEDFAF23501FB7007119F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8DEDFAD23501FB7007119F8 /* Main.storyboard */; };
 		B8DEDFB223501FB7007119F8 /* HomeAutomation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B8DEDFB023501FB7007119F8 /* HomeAutomation.xcdatamodeld */; };
-		B8DEDFB423501FB8007119F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8DEDFB323501FB8007119F8 /* Assets.xcassets */; };
 		B8DEDFB723501FB8007119F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8DEDFB523501FB8007119F8 /* LaunchScreen.storyboard */; };
+		B8F9D79023714AB700516719 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8F9D78F23714AB600516719 /* Assets.xcassets */; };
+		B8F9D792237161E200516719 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F9D791237161E200516719 /* HomeViewController.swift */; };
+		B8F9D794237162A300516719 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F9D793237162A300516719 /* SettingsViewController.swift */; };
+		B8F9D796237162B300516719 /* SensorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F9D795237162B300516719 /* SensorsViewController.swift */; };
+		B8F9D798237162BF00516719 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F9D797237162BF00516719 /* HistoryViewController.swift */; };
+		B8F9D79A237246BA00516719 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F9D799237246BA00516719 /* LaunchScreenViewController.swift */; };
+		B8F9D79E237276E200516719 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F9D79D237276E200516719 /* NetworkManager.swift */; };
+		B8F9D7A023727BB100516719 /* NoConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F9D79F23727BB100516719 /* NoConnectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2377DD47930B89CC248AA606 /* Pods-HomeAutomation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeAutomation.release.xcconfig"; path = "Target Support Files/Pods-HomeAutomation/Pods-HomeAutomation.release.xcconfig"; sourceTree = "<group>"; };
+		67F79CCD0DD9568B314907A5 /* Pods_HomeAutomation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeAutomation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B84D5563236BF7E8000CC6A3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B8CAF52223754143009F01D1 /* TemperatureHistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureHistoryTableViewController.swift; sourceTree = "<group>"; };
+		B8CAF52423754198009F01D1 /* TemperatureHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		B8CAF52823755DE0009F01D1 /* LeakageHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeakageHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		B8CAF52A23755DEF009F01D1 /* DoorHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		B8CAF52C23755E0C009F01D1 /* AirHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		B8CAF52E23755E24009F01D1 /* AirHistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirHistoryTableViewController.swift; sourceTree = "<group>"; };
+		B8CAF53023755E33009F01D1 /* DoorHistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorHistoryTableViewController.swift; sourceTree = "<group>"; };
+		B8CAF53223755E4A009F01D1 /* LeakageHistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeakageHistoryTableViewController.swift; sourceTree = "<group>"; };
+		B8CAF53423755E5A009F01D1 /* LightHistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightHistoryTableViewController.swift; sourceTree = "<group>"; };
+		B8CAF5362376AC45009F01D1 /* AltimeterSensorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltimeterSensorData.swift; sourceTree = "<group>"; };
+		B8CAF53C2376ADC4009F01D1 /* DoorSensorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorSensorData.swift; sourceTree = "<group>"; };
+		B8CAF53E2376ADF6009F01D1 /* LeakageSensorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeakageSensorData.swift; sourceTree = "<group>"; };
+		B8CAF5402376AE39009F01D1 /* AirSensorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirSensorData.swift; sourceTree = "<group>"; };
+		B8CAF5442377E4BE009F01D1 /* RGBandMotionSensorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBandMotionSensorData.swift; sourceTree = "<group>"; };
+		B8CAF5462377EE57009F01D1 /* LightHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightHistoryTableViewCell.swift; sourceTree = "<group>"; };
 		B8DEDFA423501FB7007119F8 /* HomeAutomation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeAutomation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8DEDFA723501FB7007119F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8DEDFA923501FB7007119F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B8DEDFAB23501FB7007119F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B8DEDFAE23501FB7007119F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B8DEDFB123501FB7007119F8 /* HomeAutomation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HomeAutomation.xcdatamodel; sourceTree = "<group>"; };
-		B8DEDFB323501FB8007119F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8DEDFB623501FB8007119F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8DEDFB823501FB8007119F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8F9D78F23714AB600516719 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8F9D791237161E200516719 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B8F9D793237162A300516719 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		B8F9D795237162B300516719 /* SensorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsViewController.swift; sourceTree = "<group>"; };
+		B8F9D797237162BF00516719 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		B8F9D799237246BA00516719 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		B8F9D79D237276E200516719 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B8F9D79F23727BB100516719 /* NoConnectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoConnectionViewController.swift; sourceTree = "<group>"; };
+		C7A99B4987C91BE2C6D5225A /* Pods-HomeAutomation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeAutomation.debug.xcconfig"; path = "Target Support Files/Pods-HomeAutomation/Pods-HomeAutomation.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +83,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C8CD6B108B29221E8B4EDF7 /* Pods_HomeAutomation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1697A67DDCFCF13E9E2BCA58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7A99B4987C91BE2C6D5225A /* Pods-HomeAutomation.debug.xcconfig */,
+				2377DD47930B89CC248AA606 /* Pods-HomeAutomation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		41EE70D790088601C22C7B5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67F79CCD0DD9568B314907A5 /* Pods_HomeAutomation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B8DEDF9B23501FB7007119F8 = {
 			isa = PBXGroup;
 			children = (
 				B8DEDFA623501FB7007119F8 /* HomeAutomation */,
 				B8DEDFA523501FB7007119F8 /* Products */,
+				1697A67DDCFCF13E9E2BCA58 /* Pods */,
+				41EE70D790088601C22C7B5C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,10 +132,33 @@
 				B8DEDFA923501FB7007119F8 /* SceneDelegate.swift */,
 				B8DEDFAB23501FB7007119F8 /* ViewController.swift */,
 				B8DEDFAD23501FB7007119F8 /* Main.storyboard */,
-				B8DEDFB323501FB8007119F8 /* Assets.xcassets */,
+				B8F9D78F23714AB600516719 /* Assets.xcassets */,
+				B84D5563236BF7E8000CC6A3 /* GoogleService-Info.plist */,
 				B8DEDFB523501FB8007119F8 /* LaunchScreen.storyboard */,
 				B8DEDFB823501FB8007119F8 /* Info.plist */,
 				B8DEDFB023501FB7007119F8 /* HomeAutomation.xcdatamodeld */,
+				B8F9D791237161E200516719 /* HomeViewController.swift */,
+				B8F9D793237162A300516719 /* SettingsViewController.swift */,
+				B8F9D795237162B300516719 /* SensorsViewController.swift */,
+				B8F9D797237162BF00516719 /* HistoryViewController.swift */,
+				B8F9D799237246BA00516719 /* LaunchScreenViewController.swift */,
+				B8F9D79D237276E200516719 /* NetworkManager.swift */,
+				B8F9D79F23727BB100516719 /* NoConnectionViewController.swift */,
+				B8CAF52223754143009F01D1 /* TemperatureHistoryTableViewController.swift */,
+				B8CAF52423754198009F01D1 /* TemperatureHistoryTableViewCell.swift */,
+				B8CAF52823755DE0009F01D1 /* LeakageHistoryTableViewCell.swift */,
+				B8CAF52A23755DEF009F01D1 /* DoorHistoryTableViewCell.swift */,
+				B8CAF52C23755E0C009F01D1 /* AirHistoryTableViewCell.swift */,
+				B8CAF52E23755E24009F01D1 /* AirHistoryTableViewController.swift */,
+				B8CAF53023755E33009F01D1 /* DoorHistoryTableViewController.swift */,
+				B8CAF53223755E4A009F01D1 /* LeakageHistoryTableViewController.swift */,
+				B8CAF53423755E5A009F01D1 /* LightHistoryTableViewController.swift */,
+				B8CAF5362376AC45009F01D1 /* AltimeterSensorData.swift */,
+				B8CAF53C2376ADC4009F01D1 /* DoorSensorData.swift */,
+				B8CAF53E2376ADF6009F01D1 /* LeakageSensorData.swift */,
+				B8CAF5402376AE39009F01D1 /* AirSensorData.swift */,
+				B8CAF5442377E4BE009F01D1 /* RGBandMotionSensorData.swift */,
+				B8CAF5462377EE57009F01D1 /* LightHistoryTableViewCell.swift */,
 			);
 			path = HomeAutomation;
 			sourceTree = "<group>";
@@ -77,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8DEDFBB23501FB8007119F8 /* Build configuration list for PBXNativeTarget "HomeAutomation" */;
 			buildPhases = (
+				B2CC57070B78239C0E94A8B4 /* [CP] Check Pods Manifest.lock */,
 				B8DEDFA023501FB7007119F8 /* Sources */,
 				B8DEDFA123501FB7007119F8 /* Frameworks */,
 				B8DEDFA223501FB7007119F8 /* Resources */,
+				A652B70D4C6075B3B7F2345E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,22 +224,87 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8DEDFB723501FB8007119F8 /* LaunchScreen.storyboard in Resources */,
-				B8DEDFB423501FB8007119F8 /* Assets.xcassets in Resources */,
+				B84D5564236BF7E8000CC6A3 /* GoogleService-Info.plist in Resources */,
+				B8F9D79023714AB700516719 /* Assets.xcassets in Resources */,
 				B8DEDFAF23501FB7007119F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A652B70D4C6075B3B7F2345E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeAutomation/Pods-HomeAutomation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeAutomation/Pods-HomeAutomation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HomeAutomation/Pods-HomeAutomation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2CC57070B78239C0E94A8B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeAutomation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B8DEDFA023501FB7007119F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8F9D792237161E200516719 /* HomeViewController.swift in Sources */,
+				B8CAF53323755E4A009F01D1 /* LeakageHistoryTableViewController.swift in Sources */,
+				B8CAF52323754143009F01D1 /* TemperatureHistoryTableViewController.swift in Sources */,
+				B8CAF5412376AE39009F01D1 /* AirSensorData.swift in Sources */,
+				B8CAF5372376AC45009F01D1 /* AltimeterSensorData.swift in Sources */,
+				B8CAF52B23755DEF009F01D1 /* DoorHistoryTableViewCell.swift in Sources */,
+				B8F9D796237162B300516719 /* SensorsViewController.swift in Sources */,
+				B8CAF5472377EE57009F01D1 /* LightHistoryTableViewCell.swift in Sources */,
+				B8CAF52923755DE0009F01D1 /* LeakageHistoryTableViewCell.swift in Sources */,
+				B8CAF53523755E5A009F01D1 /* LightHistoryTableViewController.swift in Sources */,
 				B8DEDFAC23501FB7007119F8 /* ViewController.swift in Sources */,
 				B8DEDFB223501FB7007119F8 /* HomeAutomation.xcdatamodeld in Sources */,
+				B8F9D79E237276E200516719 /* NetworkManager.swift in Sources */,
+				B8CAF53123755E33009F01D1 /* DoorHistoryTableViewController.swift in Sources */,
+				B8CAF5452377E4BE009F01D1 /* RGBandMotionSensorData.swift in Sources */,
+				B8CAF52523754198009F01D1 /* TemperatureHistoryTableViewCell.swift in Sources */,
+				B8CAF53F2376ADF6009F01D1 /* LeakageSensorData.swift in Sources */,
+				B8CAF52D23755E0C009F01D1 /* AirHistoryTableViewCell.swift in Sources */,
 				B8DEDFA823501FB7007119F8 /* AppDelegate.swift in Sources */,
+				B8F9D7A023727BB100516719 /* NoConnectionViewController.swift in Sources */,
 				B8DEDFAA23501FB7007119F8 /* SceneDelegate.swift in Sources */,
+				B8CAF53D2376ADC4009F01D1 /* DoorSensorData.swift in Sources */,
+				B8F9D794237162A300516719 /* SettingsViewController.swift in Sources */,
+				B8F9D79A237246BA00516719 /* LaunchScreenViewController.swift in Sources */,
+				B8F9D798237162BF00516719 /* HistoryViewController.swift in Sources */,
+				B8CAF52F23755E24009F01D1 /* AirHistoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +446,7 @@
 		};
 		B8DEDFBC23501FB8007119F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7A99B4987C91BE2C6D5225A /* Pods-HomeAutomation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,15 +456,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = lpat0007.monash.edu.HomeAutomation;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = lpat0007.monash.edu.HomeSecurityAutomation;
+				PRODUCT_NAME = HomeAutomation;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B8DEDFBD23501FB8007119F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2377DD47930B89CC248AA606 /* Pods-HomeAutomation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -313,10 +475,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = lpat0007.monash.edu.HomeAutomation;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = lpat0007.monash.edu.HomeSecurityAutomation;
+				PRODUCT_NAME = HomeAutomation;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

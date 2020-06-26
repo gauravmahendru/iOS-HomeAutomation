@@ -8,14 +8,23 @@
 
 import UIKit
 import CoreData
+import Firebase
+import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        Thread.sleep(forTimeInterval: 0.1)
+        FirebaseApp.configure()        
+        
+        UITabBar.appearance().barTintColor = UIColor.black
+        UITabBar.appearance().tintColor =  UIColor.systemOrange
+        
+        UINavigationBar.appearance().tintColor = UIColor.black
+        UINavigationBar.appearance().barTintColor = UIColor.systemOrange
+        
         return true
     }
 
@@ -77,6 +86,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
-
+    
 }
 
